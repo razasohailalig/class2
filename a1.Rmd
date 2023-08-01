@@ -1,0 +1,21 @@
+---
+title: "Carbon Emissions, Green Fundings, and Firm’s Debt: An Evidence from the US-Firm
+  Level Study."
+author: "Sohail Raza (223277071)"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+
+## Introduction
+
+
+This study is motivated by a WSJ article titled "EPA Launches Green Bank for Climate Funding in Low-Income Areas”  https://www.wsj.com/articles/epa-launches-green-bank-for-climate-funding-in-low-income-areas-13a59401?page=1 published on 14th July 2023. The  Environmental Protection Agency (EPA) will start distributing a fund of $27 billion to provide financial assistance to low-income communities to address climate change via “green banks” (US EPA, 2022).
+ One of the important implications of these green funds would be to provide loans, loan guarantees, and other forms of debt financing to private firms that are carbon-sensitive and facing financial hurdles to switch to clean energy. As pointed out in the PWC report on climate change risk on firms, carbon-sensitive firms fail to attract capital through debt financing due to climate risk awareness among institutional investors (PwC, 2022). 
+Moreover, various documented literature showed a positive association between carbon emission and the cost of debt (Jung et al., 2014, 2018; Palea & Drogo, 2020; Pizzutilo et al., 2020). This implies that as firms are more exposed to carbon emissions, the cost of debt would become higher and more difficult and could affect their capital structure. In an ideal scenario, a firm follows the pecking order theory of capital structure (Frank & Goyal, 2003). Because of the higher cost of debt, a carbon-sensitive firm may face financial constraints of external financing and consider switching to clean energy. If the government provides incentives such as “green funding” to private firms, it will act as the moderating effect to reduce carbon emissions and the cost of debt financing. 
+Research Question(s)
+In the United States, the first green bank started in 2011 in Connecticut. As of 2021, there are 21 green banks in 16 states and the District of Columbia, with $7 billion in investments since 2011 (US EPA, 2022). It is believed that one of the aims of the green banks is to provide loans at a subsidized rate to those firms which are financially constrained due to their high carbon footprints. It is interesting to study how the introduction of green banks would affect the carbon emissions and cost of debt financing in the United States. Therefore, this study explores whether higher carbon emissions affect the cost of debt financing and whether this relationship is affected by the introduction of green banks for the US firms.
+
