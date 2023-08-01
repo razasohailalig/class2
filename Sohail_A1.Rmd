@@ -1,0 +1,82 @@
+---
+title: "Carbon Emissions, Green Fundings, and Firm’s Debt: An Evidence from the US-Firm Level Study."
+author: "Sohail Raza (223277071)"
+output:
+  pdf_document: default
+  html_document: default
+  bibliography: references.bib  
+  link-citations: yes
+---
+
+
+
+## Introduction
+
+
+This study is motivated by a WSJ article titled **"EPA Launches Green Bank for Climate Funding in Low-Income Areas”** (https://www.wsj.com/articles/epa-launches-green-bank-for-climate-funding-in-low-income-areas-13a59401?page=1) published on 14th July 2023. The  Environmental Protection Agency (EPA) will start distributing a fund of $27 billion to provide financial assistance to low-income communities to address climate change via “green banks” \textcolor{blue}{(US EPA, 2022)}.
+\par
+
+ One of the important implications of these green funds would be to provide loans, loan guarantees, and other forms of debt financing to private firms that are carbon-sensitive and facing financial hurdles to switch to clean energy. As pointed out in the PWC report on climate change risk on firms, carbon-sensitive firms fail to attract capital through debt financing due to climate risk awareness among institutional investors \textcolor{blue} {(PwC, 2022)}.
+ \par
+ 
+Moreover, various documented literature showed a positive association between carbon emission and the cost of debt \textcolor{blue}{(Jung et al., 2014, 2018} ; \textcolor{blue}{Palea \& Drogo, 2020} ; \textcolor{blue}{Pizzutilo et al., 2020)} . This implies that as firms are more exposed to carbon emissions, the cost of debt would become higher and more difficult and could affect their capital structure. In an ideal scenario, a firm follows the pecking order theory of capital structure \textcolor{blue}{(Frank \& Goyal, 2003)} Because of the higher cost of debt, a carbon-sensitive firm may face financial constraints of external financing and consider switching to clean energy. If the government provides incentives such as “green funding” to private firms, it will act as the moderating effect to reduce carbon emissions and the cost of debt financing. 
+
+## Research Question(s)
+
+In the United States, the first green bank started in 2011 in Connecticut. As of 2021, there are \textcolor{red} {21 green banks in 16 states} with $7 billion in investments since 2011 \textcolor{blue}{(US EPA, 2022)}. It is believed that one of the aims of the green banks is to provide loans at a subsidized rate to those firms which are financially constrained due to their high carbon footprints. It is interesting to study how the introduction of green banks would affect the carbon emissions and cost of debt financing in the United States.\textcolor{red}{Therefore, this study explores whether higher carbon emissions affect the cost of debt financing and whether this relationship is affected by the introduction of green banks for the US firms}.
+
+## Hypothesis Development
+According to \textcolor{blue}{(Jung et al., 2018)}, the higher carbon risk (carbon emission) lead to higher cost of debt in the United States between 2009 to 2013 and carbon awareness (participation in the Climate Disclosure Project Survey) moderated this association. Similarly, the first alternative hypothesis explores the association between the carbon emissions and cost of debt and the second alternative hypothesis would identify the moderating effect of “green banks” on that association in the United States.
+\par
+    1. **H_1:** Higher carbon emissions led to higher cost of debt.
+    
+    2. **H_2:** Green bank financing moderate (reduces) the association between carbon emissions and cost of debt for the US firms located in green banks areas.
+   
+    
+## Data and Sample
+If this study would assume no constraint in data collection, the panel data will be collected for the US firms from 2009 to 2013 from CompStat firm level observations. This study will exclude financial sector and utility firms from the sample. The following variables are collected. 
+\par
+
+1.	The main dependent variable is cost of debt measured by the is measured by the ratio of interest expenses to total liabilities \textcolor{blue}{(Li et al., 2022)}.
+2.	To answer the second research question and its hypothesis, the independent variable is total direct carbon emission SCOPE 1 \textcolor{blue}{(Jung et al., 2018)}.
+3.	To answer the second research question and its hypothesis, DID model will be employed, where treatment firms are those firms located in that 16 states. The first green bank started in 2011 in Connecticut, so the “Post” is an indicator variable for 1 after 2011 and 0 before it.
+4.	The control variables are firms characteristics such as firm size ( total book value of the asset), leverage (total liabilities to total assets), tangibility (net PPE to total assets), profitability (EBITDA to total assets), market-to-book ratio, firm age and Tobin Q \textcolor{blue}{(Jung et al., 2018; Lee \& Choi, 2021; Li et al., 2022)}.
+
+## Preliminary Analysis
+
+The first set of analysis consists of graphs related to “cost of debt ratio” of the sample firms between 2009 to 2013. It is assumed that the higher ratio will indicate higher cost of debt over time. The second graph uses total direct carbon emission SCOPE 1 of the sample firms which shows firm’s direct emission over time. \par
+
+Next, this study will use correlation analysis between the cost of debt (Y) and carbon emissions (X) and it is expected the coefficient of correlation is fairly high between the these variable. This will give an implication that higher emission leads to higher cost of debt for the sample firms.\par
+
+The second hypothesis is based on analyzing the effect of green banks financing on the association between the carbon emissions and cost of debt in the sample. Since the treatment group is defined as the firms located in the states where the green banks are located, and control group includes the firms where there is no green banks. The parallel trend assumption of DID model will be checked using the graph. The graph will use the cost of debt variable as Y for all firms (treatment and control) and 2011 will be the year of intervention (as the first green bank established in this year). The visualization of pre and post trend will indicate the feasibility of using multi variate (DID) model with additional controls to answer the second hypothesis. 
+
+## Research Impact
+
+1.	This study aims to provide empirical evidence for firms and the government regarding the scope of green financing in reducing carbon emissions and cost of debt.
+2.	Firms facing higher cost of debt due to high carbon emission, the green financing could be effective measure that affect their capital structure and reduces their cash flow uncertainty due to higher cost of debt.
+3.	For the government, implementing green financing would not only help to reduce carbon emission but could be a useful financial strategy to expand in other states.
+
+
+# References
+Frank, M. Z., & Goyal, V. K. (2003). Testing the pecking order theory of capital structure. Journal of Financial Economics, 67(2), 217–248.
+
+Jung, J., Herbohn, K., & Clarkson, P. (2014). The impact of a firm’s carbon risk profile on the cost of debt capital: Evidence from Australian firms. University of Queensland.
+
+Jung, J., Herbohn, K., & Clarkson, P. (2018). Carbon risk, carbon risk awareness and the cost of debt financing. Journal of Business Ethics, 150, 1151–1171.
+
+Lee, S.-Y., & Choi, D.-K. (2021). Does corporate carbon risk management mitigate the cost of debt capital? Evidence from South Korean climate change policies. Emerging Markets Finance and Trade, 57(7), 2138–2151.
+
+Li, W., Hu, H., & Hong, Z. (2022). Do Green Finance Policies Decrease the Cost of Debt?——Evidence from the ESG Ratings of Chinese Listed Enterprises. Evidence from the ESG Ratings of Chinese Listed Enterprises.
+
+Palea, V., & Drogo, F. (2020). Carbon emissions and the cost of debt in the eurozone: The role of public policies, climate-related disclosure and corporate governance. Business Strategy and the Environment, 29(8), 2953–2972.
+
+Pizzutilo, F., Mariani, M., Caragnano, A., & Zito, M. (2020). Dealing with carbon risk and the cost of debt: Evidence from the European market. International Journal of Financial Studies, 8(4), 61.
+
+PwC. (2022). Climate Change Risks on Business with 3 Real-Life Examples. PwC. https://www.pwc.com/gx/en/services/sustainability/publications/risks-and-opportunities-of-climate-change-on-business.html
+
+US EPA, O. (2022, December 30). Green Banks [Overviews and Factsheets]. https://www.epa.gov/statelocalenergy/green-banks
+
+
+
+
+
